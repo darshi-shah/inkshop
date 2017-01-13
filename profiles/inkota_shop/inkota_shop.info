@@ -1,0 +1,237 @@
+; Packaging information for inkota_shop
+name = "INKOTA Shop"
+description = "Shop für INKOTA"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
+dependencies[] = fpa
+dependencies[] = module_filter
+
+; CCK
+dependencies[] = filefield_nginx_progress
+
+; Chaos tool suite
+dependencies[] = ctools
+
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+;dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+;dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = translation
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Display Suite
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_ui
+
+; Fields
+;dependencies[] = name
+dependencies[] = field_group
+; Location
+dependencies[] = addressfield
+dependencies[] = addressfield_title
+; Media
+dependencies[] = file_entity
+dependencies[] = media
+
+; Languages
+dependencies[] = transliteration
+dependencies[] = i18n
+dependencies[] = translation_helpers
+;dependencies[] = i18n_strings
+
+; Other
+dependencies[] = breakpoints
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = entity_token
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = title
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = robotstxt
+;dependencies[] = socialshareprivacy
+dependencies[] = token
+dependencies[] = link
+dependencies[] = uuid
+dependencies[] = uuid_path
+dependencies[] = colorbox
+;dependencies[] = colorbox_node
+;dependencies[] = context
+
+; Picture
+dependencies[] = picture
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+; SEO
+dependencies[] = metatag
+dependencies[] = metatag_context
+dependencies[] = metatag_opengraph
+dependencies[] = metatag_views
+
+;Commerce
+dependencies[] = commerce
+dependencies[] = commerce_addressbook
+;dependencies[] = commerce_add_to_cart_confirmation
+dependencies[] = commerce_backoffice
+dependencies[] = commerce_backoffice_content
+dependencies[] = commerce_backoffice_order
+dependencies[] = commerce_backoffice_product
+dependencies[] = commerce_bank_transfer
+dependencies[] = commerce_buttonloesung
+dependencies[] = commerce_checkout_progress
+;dependencies[] = commerce_checkout_redirect
+;dependencies[] = commerce_contributions
+dependencies[] = commerce_discount
+dependencies[] = commerce_donate
+dependencies[] = emogrifier
+dependencies[] = commerce_extra_panes
+;dependencies[] = commerce_extra_panes_toc
+dependencies[] = commerce_extra_price_formatters
+;dependencies[] = commerce_fancy_attributes
+dependencies[] = commerce_features
+dependencies[] = commerce_feeds
+dependencies[] = commerce_flat_rate
+;dependencies[] = commerceguys_marketplace
+;dependencies[] = commerce_invoice_receipt
+dependencies[] = commerce_message
+;dependencies[] = commerce_option
+;dependencies[] = commerce_product_attributes
+dependencies[] = commerce_paypal
+dependencies[] = commerce_physical
+dependencies[] = commerce_reports
+dependencies[] = commerce_search_api
+dependencies[] = commerce_shipping
+;dependencies[] = commerce_sofortbanking
+dependencies[] = commerce_stock
+dependencies[] = commerce_stock_ui
+;dependencies[] = commerce_stock_simple_stock
+;dependencies[] = redhen
+;dependencies[] = redhen_donation
+
+;dependencies[] = connector
+dependencies[] = countries
+;dependencies[] = crumbs
+dependencies[] = eva
+dependencies[] = facetapi
+dependencies[] = feeds
+;dependencies[] = feeds_admin_ui
+dependencies[] = feeds_tamper
+;dependencies[] = feeds_tamper_admin_ui
+dependencies[] = field_extractor
+;dependencies[] = http_client
+;dependencies[] = image_delta_formatter
+;dependencies[] = inline_conditions
+dependencies[] = inline_entity_form
+dependencies[] = job_scheduler
+dependencies[] = mailsystem
+;dependencies[] = mailchimp
+dependencies[] = menu_attributes
+;dependencies[] = menu_token
+dependencies[] = message
+dependencies[] = message_notify
+dependencies[] = mimemail
+;dependencies[] = oauth
+;dependencies[] = oauth2
+;dependencies[] = oauthconnector
+;dependencies[] = options_element
+dependencies[] = physical
+dependencies[] = search_api
+dependencies[] = search_api_db
+dependencies[] = search_api_ranges
+dependencies[] = search_api_solr
+dependencies[] = search_api_sorts
+dependencies[] = select_or_other
+;dependencies[] = service_links
+;dependencies[] = services
+dependencies[] = title
+dependencies[] = views_megarow
+dependencies[] = views_date_format_sql
+dependencies[] = visualization
+
+; User interface
+;dependencies[] = addanother
+dependencies[] = better_exposed_filters
+dependencies[] = chosen
+dependencies[] = editablefields
+;dependencies[] = flexslider
+dependencies[] = linkit
+dependencies[] = linkit_target
+dependencies[] = logintoboggan
+dependencies[] = image_resize_filter
+dependencies[] = jquery_update
+dependencies[] = simplify
+dependencies[] = taxonomy_manager
+dependencies[] = wysiwyg
+
+; Variable
+dependencies[] = variable
+dependencies[] = variable_realm
+dependencies[] = variable_store
+
+; Views
+dependencies[] = views
+dependencies[] = views_litepager
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = views_fluid_grid
+dependencies[] = equalheights
+
+; Webform
+dependencies[] = compact_forms
+; Features
+dependencies[] = features
+dependencies[] = features_override
+dependencies[] = strongarm
+
+; Development
+;dependencies[] = bundle_copy
+;dependencies[] = devel
+;dependencies[] = search_krumo
+;dependencies[] = styleguide
+dependencies[] = diff
+dependencies[] = habitat
+dependencies[] = bear_habitat
+dependencies[] = tabtamer
+
+; Features and custom modules
+dependencies[] = inkshop_content_types
+dependencies[] = inkshop_views
+dependencies[] = inkshop_search
+dependencies[] = checkout_shipping_taxes
+dependencies[] = rhadmintheme

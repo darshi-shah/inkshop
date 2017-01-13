@@ -1,0 +1,10 @@
+api = 2
+core = 7.x
+; Include the definition for how to build Drupal core directly, including patches:
+includes[] = drupal-org-core.make
+
+; include mcf profile from github
+projects[inkota_shop][type] = "profile"
+projects[inkota_shop][download][type] = "git"
+projects[inkota_shop][download][url] = "https://github.com/heliogabal/inkshop_profile.git"
+projects[inkota_shop][download][branch] = "master"
